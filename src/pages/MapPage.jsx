@@ -41,8 +41,8 @@ import {
   ZoomIn,
 } from "lucide-react";
 
-import { formatLength } from "../../utils/formatLength";
-import { Button } from "../button/Button";
+import { formatLength } from "../components/utils/formatLength";
+import { Button } from "../components/button/Button";
 
 function MapPage() {
   const mapRef = useRef();
